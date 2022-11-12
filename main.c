@@ -159,6 +159,7 @@ void administrator()
             printf("\t\t  Tekan ENTER untuk melanjutkan.\n");
             getchar();
             system("cls");
+            fflush(stdin);
             menuAwal();
             }
 }
@@ -297,44 +298,32 @@ void regisRTSubsidi()
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
     validasiMenu(&pilMenu, 1, 9);
-     if(pilMenu==1){
+    if(1<= pilMenu && pilMenu <= 12) {
+    if(pilMenu==1){
         strcpy(kategori[i], "D1-1"); biaya1[i] = 1780; biaya2[i] = 2060; biaya3[i] = 5880;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==2){
         strcpy(kategori[i], "D1-2"); biaya1[i] = 2060; biaya2[i] = 2340; biaya3[i] = 5940;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==3){
         strcpy(kategori[i], "D2-1"); biaya1[i] = 2340; biaya2[i] = 2620; biaya3[i] = 6000;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==4){
         strcpy(kategori[i], "D2-2"); biaya1[i] = 2620; biaya2[i] = 2900; biaya3[i] = 6060;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==5){
         strcpy(kategori[i], "D3-1"); biaya1[i] = 2900; biaya2[i] = 3180; biaya3[i] = 6120;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==6){
         strcpy(kategori[i], "D3-2"); biaya1[i] = 3180; biaya2[i] = 3460; biaya3[i] = 6180;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==7){
         strcpy(kategori[i], "D4-1"); biaya1[i] = 3460; biaya2[i] = 3740; biaya3[i] = 6240;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==8){
         strcpy(kategori[i], "D4-2"); biaya1[i] = 3740; biaya2[i] = 4020; biaya3[i] = 6300;
         denda[i] = dendaRT; BPM[i] = BPMRT;
+    }
         system("cls");
         inputPemakaian();
     }else if(pilMenu==9){
@@ -384,66 +373,44 @@ void regisRTNonSubsidi()
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
     validasiMenu(&pilMenu, 1, 13);
+    if(1<= pilMenu && pilMenu <= 12) {
      if(pilMenu==1){
         strcpy(kategori[i], "D1-3"); biaya1[i] = 6340; biaya2[i] = 9200; biaya3[i] = 9600;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==2){
         strcpy(kategori[i], "D1-4"); biaya1[i] = 6420; biaya2[i] = 9350; biaya3[i] = 9650;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     }else if(pilMenu==3){
         strcpy(kategori[i], "D2-3"); biaya1[i] = 6490; biaya2[i] = 9500; biaya3[i] = 9800;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==4) {
         strcpy(kategori[i], "D2-4"); biaya1[i] = 6570; biaya2[i] = 9650; biaya3[i] = 9950;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==5) {
         strcpy(kategori[i], "D3-3"); biaya1[i] = 6640; biaya2[i] = 9800; biaya3[i] = 10100;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==6) {
         strcpy(kategori[i], "D3-4"); biaya1[i] = 6720; biaya2[i] = 9950; biaya3[i] = 10250;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
-    } else if(pilMenu==7)
-    {
+    } else if(pilMenu==7){
         strcpy(kategori[i], "D4-3"); biaya1[i] = 6790; biaya2[i] = 10100; biaya3[i] = 10400;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
-    }
-    else if(pilMenu==8) {
+    } else if(pilMenu==8) {
         strcpy(kategori[i], "D4-4"); biaya1[i] = 6870; biaya2[i] = 10250; biaya3[i] = 10550;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==9) {
         strcpy(kategori[i], "D5-1"); biaya1[i] = 6940; biaya2[i] = 10400; biaya3[i] = 10700;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==10) {
         strcpy(kategori[i], "D5-2"); biaya1[i] = 7020; biaya2[i] = 10550; biaya3[i] = 10850;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==11) {
         strcpy(kategori[i], "D5-3"); biaya1[i] = 7090; biaya2[i] = 10700; biaya3[i] = 11000;
         denda[i] = dendaRT; BPM[i] = BPMRT;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==12) {
         strcpy(kategori[i], "D5-4"); biaya1[i] = 7170; biaya2[i] = 10850; biaya3[i] = 11150;
         denda[i] = dendaRT; BPM[i] = BPMRT;
+    }
         system("cls");
         inputPemakaian();
     } else if(pilMenu==13) {
@@ -489,66 +456,45 @@ void regisUsaha()
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
     validasiMenu(&pilMenu, 1, 13);
+    if(1<= pilMenu && pilMenu <= 12) {
      if(pilMenu==1) {
         strcpy(kategori[i], "E1-1"); biaya1[i] = 9200; biaya2[i] = 9850; biaya3[i] = 10950;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==2) {
         strcpy(kategori[i], "E1-2"); biaya1[i] = 9500; biaya2[i] = 10150; biaya3[i] = 11250;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==3) {
         strcpy(kategori[i], "E1-3"); biaya1[i] = 9800; biaya2[i] = 10450; biaya3[i] = 11550;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==4) {
         strcpy(kategori[i], "E1-4"); biaya1[i] = 10100; biaya2[i] = 10750; biaya3[i] = 11850;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==5) {
         strcpy(kategori[i], "E2-1"); biaya1[i] = 10400; biaya2[i] = 11050; biaya3[i] = 12150;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==6) {
         strcpy(kategori[i], "E2-2"); biaya1[i] = 10700; biaya2[i] = 11350; biaya3[i] = 12550;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==7) {
         strcpy(kategori[i], "E2-3"); biaya1[i] = 11000; biaya2[i] = 11650; biaya3[i] = 13150;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==8) {
         strcpy(kategori[i], "E2-4"); biaya1[i] = 11300; biaya2[i] = 11950; biaya3[i] = 13950;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==9) {
         strcpy(kategori[i], "E3-1"); biaya1[i] = 11600; biaya2[i] = 12250; biaya3[i] = 14750;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==10) {
         strcpy(kategori[i], "E3-2"); biaya1[i] = 11900; biaya2[i] = 12550; biaya3[i] = 15050;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==11){
         strcpy(kategori[i], "E3-3"); biaya1[i] = 12200; biaya2[i] = 12850; biaya3[i] = 15850;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
     } else if(pilMenu==12){
         strcpy(kategori[i], "E3-4"); biaya1[i] = 12500; biaya2[i] = 13150; biaya3[i] = 16650;
         denda[i] = dendaUsaha; BPM[i] = BPMU;
-        system("cls");
-        inputPemakaian();
+    } system("cls");
+      inputPemakaian();
     } else if(pilMenu==13){
         system("cls");
         registrasi();
