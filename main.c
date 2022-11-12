@@ -159,7 +159,6 @@ void administrator()
             printf("\t\t  Tekan ENTER untuk melanjutkan.\n");
             getchar();
             system("cls");
-            fflush(stdin);
             menuAwal();
             }
 }
