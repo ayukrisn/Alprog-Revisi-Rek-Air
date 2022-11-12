@@ -65,11 +65,11 @@ int main()
         validasiMenu(&ulang, 1, 2);
         if(ulang==1) i++;
         else if(ulang==2) {
-            system("cls");
-            strukPembayaran();
             break;
         }
     }
+    system("cls");
+    strukPembayaran();
     keluar();
     return 0;
 }
