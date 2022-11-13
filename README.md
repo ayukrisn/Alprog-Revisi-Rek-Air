@@ -6,6 +6,7 @@ Program Revisi Penghitung Pembayaran Air Minum
 
 
 # Flowchart Sederhana
-![revisi waterbill-int main drawio](https://user-images.githubusercontent.com/113322119/201514333-f563468d-7f00-4f81-bc86-64e21553e5a4.png)
+![revisi waterbill-flowchart sederhana drawio](https://user-images.githubusercontent.com/113322119/201514366-2bb55e45-4e77-4d3a-bb8e-1cbd869f09ab.png)
+
 
 
