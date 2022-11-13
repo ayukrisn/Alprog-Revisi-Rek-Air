@@ -298,7 +298,7 @@ void regisRTSubsidi()
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
     validasiMenu(&pilMenu, 1, 9);
-    if(1<= pilMenu && pilMenu <= 12) {
+    if(1<= pilMenu && pilMenu <= 8) {
     if(pilMenu==1){
         strcpy(kategori[i], "D1-1"); biaya1[i] = 1780; biaya2[i] = 2060; biaya3[i] = 5880;
         denda[i] = dendaRT; BPM[i] = BPMRT;
