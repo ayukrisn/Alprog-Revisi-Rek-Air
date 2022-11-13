@@ -785,7 +785,7 @@ void riwayatStrukPembayaran()
     fread(teks, sizeof(char), numbytes, riwayat);
     fclose(riwayat);
 
-    printf(teks);
+    printf("%s", teks);
 
     printf("\t\t  Tekan ENTER untuk melanjutkan.\n");
     printf("\t\t ");
