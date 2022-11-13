@@ -328,7 +328,7 @@ void regisRTSubsidi()
         inputPemakaian();
     }else if(pilMenu==9){
         system("cls");
-        registrasi();
+        kelompok();
     }
 }
 
@@ -365,7 +365,7 @@ void regisRTNonSubsidi()
     printf("\t\t||   [11] Daya Listrik  1.300 VA || D5-3                                ||\n");
     printf("\t\t||   [12] Daya Listrik >1.300 VA || D5-4                                ||\n");
     printf("\t\t|| -------------------------------------------------------------------- ||\n");
-    printf("\t\t||   [13] Kembali ke menu sebelumnya                                     ||\n");
+    printf("\t\t||   [13] Kembali ke menu sebelumnya                                    ||\n");
     printf("\t\t|+______________________________________________________________________+|\n");
     printf("\t\t ________________________________________________________________________ \n");
     printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
@@ -415,7 +415,7 @@ void regisRTNonSubsidi()
         inputPemakaian();
     } else if(pilMenu==13) {
         system("cls");
-        registrasi();
+        kelompok();
     }
 }
 
@@ -448,7 +448,7 @@ void regisUsaha()
     printf("\t\t||   [11] Daya Listrik  1.300 VA || E3-3                                ||\n");
     printf("\t\t||   [12] Daya Listrik >1.300 VA || E3-4                                ||\n");
     printf("\t\t|| -------------------------------------------------------------------- ||\n");
-    printf("\t\t||   [13] Kembali ke menu sebelumnya                                     ||\n");
+    printf("\t\t||   [13] Kembali ke menu sebelumnya                                    ||\n");
     printf("\t\t|+______________________________________________________________________+|\n");
     printf("\t\t ________________________________________________________________________ \n");
     printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
@@ -497,7 +497,7 @@ void regisUsaha()
       inputPemakaian();
     } else if(pilMenu==13){
         system("cls");
-        registrasi();
+        kelompok();
     }
 }
 
