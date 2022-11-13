@@ -1,5 +1,9 @@
 # Alprog-Revisi-Rek-Air
 Program Revisi Penghitung Pembayaran Air Minum
 
-# Flowchart
-![revisi waterbill-rekeningAir drawio](https://user-images.githubusercontent.com/113322119/201471023-d3f3cd63-b378-4ce7-96e6-265ffdf479c1.png)
+# Flowchart Program Lengkap
+![revisi-flowchart lengkap](https://user-images.githubusercontent.com/113322119/201500551-14b66688-3cc9-46ff-83cb-95c9b58548be.png)
+
+# Flowchart Sederhana
+![revisi waterbill-flowchart sederhana drawio](https://user-images.githubusercontent.com/113322119/201500557-c30680f0-a66b-4266-aa40-bdb56f6b7e42.png)
+
