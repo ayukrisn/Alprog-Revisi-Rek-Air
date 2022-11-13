@@ -369,7 +369,6 @@ void regisRTNonSubsidi()
     printf("\t\t|+______________________________________________________________________+|\n");
     printf("\t\t ________________________________________________________________________ \n");
     printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
-    printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
     validasiMenu(&pilMenu, 1, 13);
@@ -451,7 +450,6 @@ void regisUsaha()
     printf("\t\t||   [13] Kembali ke menu sebelumnya                                    ||\n");
     printf("\t\t|+______________________________________________________________________+|\n");
     printf("\t\t ________________________________________________________________________ \n");
-    printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
     printf("\n\t\t Mohon masukkan pilihan sesuai dengan tipe rumah Anda. ");
     printf("\n\t\t  Contoh: 1 ");
     printf("\n\t\t  Pilihan : ");
