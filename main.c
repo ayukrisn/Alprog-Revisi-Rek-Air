@@ -23,7 +23,7 @@ void menuAwal(); void registrasi(); void menuAdmin(); void administrator();
     void keluar();
 
 // array data pembayaran
-char nama[maxArray][50]; char alamat[maxArray][50]; char kategori[maxArray][4];
+char nama[maxArray][50]; char alamat[maxArray][50]; char kategori[maxArray][10];
 float biaya1[maxArray]; float biaya2[maxArray]; float biaya3[maxArray]; float denda[maxArray]; float BPM[maxArray];
 
 //struct data admin
